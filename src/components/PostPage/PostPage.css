@@ -1,0 +1,19 @@
+.post-page{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.close-link{
+    align-self: flex-end;
+}
+
+.button-wrapper{
+    display: flex;
+    align-self: flex-end;
+    gap: 10px;
+}
+
+.delete-btn{
+    background-color: rgb(139, 1, 1);
+}

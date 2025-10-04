@@ -1,0 +1,19 @@
+.app{
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #e8eaed;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+
+    background-color: #4469ae;
+    color: #ffffff;
+}

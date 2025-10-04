@@ -1,0 +1,19 @@
+.post-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #fff;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+.post-header{
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    font-size: 22px;
+}

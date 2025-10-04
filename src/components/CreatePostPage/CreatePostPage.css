@@ -1,0 +1,42 @@
+.create-post-block, .edit-post-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: #fff;
+
+    padding: 10px;
+    border-radius: 10px
+}
+
+.create-post-header, .edit-post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-post-form, .edit-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.content-input {
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 60px;
+    max-height: 60px;
+
+    border-radius: 10px;
+    padding: 5px;
+    resize: none;
+}
+
+.content-input:focus{
+    outline: none;
+}
+
+.send-btn, .save-btn {
+    margin-left: auto;
+}
